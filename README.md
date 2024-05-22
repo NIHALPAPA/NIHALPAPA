@@ -2,7 +2,7 @@
 <h1 align="center">Hi, I AM ᐃ NIHAL PAPA ᐃ</h1>
 <h3 align="center">Aspiring to excel as an AWS DevOps Engineer, combining theoretical expertise with practical project implementation. Eager to contribute innovative solutions for seamless cloud infrastructure and automation.</h3>
 
-<img align="right" alt="coding" width="400" src="https://i.gifer.com/GEE1.jpg">
+<img align="right" alt="coding" width="400" src="https://66.media.tumblr.com/c22a0f2859863d01f64ba94c4c3c2a7a/tumblr_mv1ddgiKxS1sjro9ko1_500.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nihalpapa&label=Profile%20views&color=0e75b6&style=flat" alt="nihalpapa" /> </p>
 
