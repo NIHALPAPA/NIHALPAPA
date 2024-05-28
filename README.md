@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I AM ᐃ NIHAL PAPA ᐃ</h1>
-![logo](https://github.com/NIHALPAPA/NIHALPAPA/blob/main/BANNER.jpg)
+![logo](https://github.com/NIHALPAPA/NIHALPAPA/blob/main/BANNER.jpg).
 <h3 align="center">Aspiring to excel as an AWS DevOps Engineer, combining theoretical expertise with practical project implementation. Eager to contribute innovative solutions for seamless cloud infrastructure and automation.</h3>
 
 <img align="right" alt="coding" width="400" src="https://media1.tenor.com/m/GfSX-u7VGM4AAAAC/coding.gif">
