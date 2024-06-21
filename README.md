@@ -1,4 +1,4 @@
-![logo](https://github.com/NIHALPAPA/NIHALPAPA/blob/main/Banner.gif)
+![logo](https://github.com/NIHALPAPA/NIHALPAPA/blob/main/Banner-ezgif.com-effects-1.gif)
 <h1 align="center">Hi, I AM ᐃ NIHAL PAPA ᐃ</h1>
 <h3 align="center">Aspiring to excel as an AWS DevOps Engineer, combining theoretical expertise with practical project implementation. Eager to contribute innovative solutions for seamless cloud infrastructure and automation.</h3>
 
