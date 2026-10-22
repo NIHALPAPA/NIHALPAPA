@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Nihal Papa - AWS DevOps Engineer animated banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#1a0606"/>
+      <stop offset="1" stop-color="#4a0b0b"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#fca5a5"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ef4444" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ef4444" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="subClip">
+      <rect x="60" y="130" width="0" height="40">
+        <animate attributeName="width" values="0;580;580;0" keyTimes="0;0.25;0.9;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="termClip">
+      <rect x="60" y="190" width="0" height="34">
+        <animate attributeName="width" values="0;380;380;0" keyTimes="0;0.5;0.9;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <path id="infinity" d="M950,115 C1000,50 1090,50 1090,115 C1090,180 1000,180 950,115 C900,50 810,50 810,115 C810,180 900,180 950,115 Z"/>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; }
+    .title { font-size: 66px; font-weight: 800; fill: #ffffff; letter-spacing: 3px; }
+    .sub { font-size: 24px; font-weight: 600; fill: url(#redGrad); }
+    .term { font-size: 20px; fill: #f87171; }
+    .stage { font-size: 14px; font-weight: 700; fill: #ffffff; letter-spacing: 1px; }
+    .tool { font-size: 12px; fill: #9ca3af; }
+    .tag { font-size: 15px; font-weight: 700; fill: #fecaca; letter-spacing: 2px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;40,40" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Pulsing glows -->
+  <circle cx="950" cy="115" r="170" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="90" cy="300" r="140" fill="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Floating particles -->
+  <g fill="#ef4444">
+    <circle cx="300" cy="320" r="2"><animate attributeName="cy" values="330;-10" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="320" r="3"><animate attributeName="cy" values="330;-10" dur="12s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="12s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="320" r="2"><animate attributeName="cy" values="330;-10" dur="10s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="320" r="3"><animate attributeName="cy" values="330;-10" dur="11s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="11s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="320" r="2"><animate attributeName="cy" values="330;-10" dur="8s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" begin="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Title block -->
+  <text x="60" y="108" class="mono title">NIHAL PAPA
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+  <g clip-path="url(#subClip)">
+    <text x="60" y="158" class="mono sub">AWS DevOps Engineer · Cloud Automation</text>
+  </g>
+
+  <!-- Terminal line with cursor -->
+  <g clip-path="url(#termClip)">
+    <text x="60" y="212" class="mono term">$ terraform apply -auto-approve</text>
+  </g>
+  <rect y="194" width="11" height="22" fill="#ef4444">
+    <animate attributeName="x" values="60;440;440;60" keyTimes="0;0.5;0.9;1" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Infinity DevOps loop -->
+  <use href="#infinity" fill="none" stroke="#ef4444" stroke-width="10" stroke-opacity="0.25" filter="url(#soft)"/>
+  <use href="#infinity" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 10">
+    <animate attributeName="stroke-dashoffset" values="0;-96" dur="2.4s" repeatCount="indefinite"/>
+  </use>
+  <circle r="8" fill="#ffffff">
+    <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#infinity"/></animateMotion>
+  </circle>
+  <circle r="14" fill="#ef4444" fill-opacity="0.35">
+    <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#infinity"/></animateMotion>
+  </circle>
+  <text x="880" y="121" text-anchor="middle" class="mono tag">DEV</text>
+  <text x="1020" y="121" text-anchor="middle" class="mono tag">OPS</text>
+
+  <!-- CI/CD pipeline -->
+  <line x1="120" y1="265" x2="1080" y2="265" stroke="#7f1d1d" stroke-width="4"/>
+  <line x1="120" y1="265" x2="1080" y2="265" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 12">
+    <animate attributeName="stroke-dashoffset" values="0;-48" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Pipeline stages -->
+  <g>
+    <circle cx="120" cy="265" r="12" fill="#0a0a0a" stroke="#ef4444" stroke-width="3">
+      <animate attributeName="r" values="19;12;12" keyTimes="0;0.15;1" dur="5s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#ef4444;#0a0a0a;#0a0a0a" keyTimes="0;0.15;1" dur="5s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="360" cy="265" r="12" fill="#0a0a0a" stroke="#ef4444" stroke-width="3">
+      <animate attributeName="r" values="19;12;12" keyTimes="0;0.15;1" dur="5s" begin="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#ef4444;#0a0a0a;#0a0a0a" keyTimes="0;0.15;1" dur="5s" begin="1.25s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="265" r="12" fill="#0a0a0a" stroke="#ef4444" stroke-width="3">
+      <animate attributeName="r" values="19;12;12" keyTimes="0;0.15;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#ef4444;#0a0a0a;#0a0a0a" keyTimes="0;0.15;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="265" r="12" fill="#0a0a0a" stroke="#ef4444" stroke-width="3">
+      <animate attributeName="r" values="19;12;12" keyTimes="0;0.15;1" dur="5s" begin="3.75s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#ef4444;#0a0a0a;#0a0a0a" keyTimes="0;0.15;1" dur="5s" begin="3.75s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="265" r="12" fill="#0a0a0a" stroke="#ef4444" stroke-width="3">
+      <animate attributeName="r" values="19;12;12" keyTimes="0;0.15;1" dur="5s" begin="5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#ef4444;#0a0a0a;#0a0a0a" keyTimes="0;0.15;1" dur="5s" begin="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Moving build packet -->
+  <rect x="-9" y="256" width="18" height="18" rx="4" fill="#ffffff">
+    <animateMotion path="M120,0 H1080" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Stage labels -->
+  <g text-anchor="middle" class="mono">
+    <text x="120" y="302" class="stage">CODE</text><text x="120" y="320" class="tool">Git · GitHub</text>
+    <text x="360" y="302" class="stage">BUILD</text><text x="360" y="320" class="tool">Jenkins · Docker</text>
+    <text x="600" y="302" class="stage">TEST</text><text x="600" y="320" class="tool">CI checks</text>
+    <text x="840" y="302" class="stage">DEPLOY</text><text x="840" y="320" class="tool">Kubernetes · AWS</text>
+    <text x="1080" y="302" class="stage">MONITOR</text><text x="1080" y="320" class="tool">Prometheus · Grafana</text>
+  </g>
+
+  <!-- Frame -->
+  <rect x="1" y="1" width="1198" height="338" fill="none" stroke="#ef4444" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
