@@ -2,7 +2,7 @@
 <h1 align="center">HI THERE 👋 </h1>
 <h3 align="center">Aspiring to excel as an AWS DevOps Engineer, combining theoretical expertise with practical project implementation. Eager to contribute innovative solutions for seamless cloud infrastructure and automation.</h3>
 
-<img align="right" alt="coding" width="400" src="https://github.com/NIHALPAPA/NIHALPAPA/blob/main/ngoding-mulu.gif">
+<img align="right" alt="coding" width="400" height="300" src="https://github.com/NIHALPAPA/NIHALPAPA/blob/main/ngoding-mulu.gif?raw=true">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nihalpapa&label=Profile%20views&color=0e75b6&style=flat" alt="nihalpapa" /> </p>
 
