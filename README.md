@@ -1,4 +1,4 @@
-![logo](https://github.com/NIHALPAPA/NIHALPAPA/blob/main/UMBRALLACORPICON-3-ezgif.com-resize.gif)
+![logo](https://github.com/NIHALPAPA/NIHALPAPA/blob/main/banner.svg)
 <h1 align="center">HI THERE </h1>
 <h3 align="center">Aspiring to excel as an AWS DevOps Engineer, combining theoretical expertise with practical project implementation. Eager to contribute innovative solutions for seamless cloud infrastructure and automation.</h3>
 
